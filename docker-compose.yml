@@ -26,10 +26,10 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: homestead
-      MYSQL_USER: homestead
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: tweety
+      MYSQL_USER: antonis
+      MYSQL_PASSWORD: antonis
+      MYSQL_ROOT_PASSWORD: antonis
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     networks:
