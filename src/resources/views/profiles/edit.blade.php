@@ -97,8 +97,10 @@
     <div class="form-group row mb-0">
         <div class="col-md-6 offset-md-4">
             <button type="submit" class="px-6 py-3 rounded text-sm uppercase bg-blue-600 text-white">
-                Register
+                Submit
             </button>
+
+            <a href="{{ $user->path() }}" class="hover:underline">Cancel</a>
         </div>
     </div>
 

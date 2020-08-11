@@ -14,12 +14,15 @@
     <style>
         html,
         body {
-            background-color: #fff;
+            background-image: url(/images/bg-welcome.png);
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
             margin: 0;
+            
         }
 
         .full-height {
@@ -70,13 +73,12 @@
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="title m-b-md">
-                Tweety
+                Tweeter
             </div>
 
             <div class="links">
-                <a href="https://laracasts.com">Laracasts</a>
                 @auth
-                <a href="{{ url('/home') }}">Home</a>
+                <a href="{{ url('/tweets') }}">Main page</a>
                 @else
                 <a href="{{ route('login') }}">Login</a>
                 <a href="{{ route('register') }}">Register</a>

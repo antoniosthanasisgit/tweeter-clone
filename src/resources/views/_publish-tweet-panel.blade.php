@@ -8,11 +8,13 @@
          name="body"
          class="w-full"
          placeholder="what's up doc?"
+         required
+         autofocus
          ></textarea>
         
          <hr class="my-4">
 
-         <footer class="flex justify-between">
+         <footer class="flex justify-between items-center">
 
          <img
             
@@ -27,7 +29,7 @@
             height="50"
 
             >
-            <button type="submit" class="bg-blue-500 rounded-lg shadow py-2 px-4 text-white">Tweet-a-roo</button>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 rounded-lg shadow px-10 text-sm text-white h-10">Tweet-a-roo</button>
          </footer>
 
 
