@@ -7,7 +7,7 @@
     <div class="relative">
         <img class="mb-2" src="/images/bg-welcome.png" alt="image header" style="border-radius: 1.25rem; width:700px; height:205px;" />
 
-        <img src="{{ $user->avatar }}" alt="" class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2" style="left: 50%" width="150">
+        <img src="{{ $user->avatar }}" alt="" class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2" style="left: 50%; width: 150px; height: 150px">
     </div>
 
 
